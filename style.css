@@ -1,0 +1,33 @@
+@font-face {
+    font-family: cim;
+    src: url(Angel_wish.ttf);
+}
+
+@font-face {
+    font-family: szoveg;
+    src: url(ELEGANT_TYPEWRITER_Regular.ttf);
+}
+
+p {
+    font-family: cim;
+    text-align: center;
+    font-size: 125px;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+body {
+    background-image: url(bg.jpg);
+}
+
+.container {
+    border: double rgba(0, 0, 0, 0.719) 15px;
+    min-height: 95vh;
+    height: 95vh;
+    box-sizing: border-box;
+}
+
+span {
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.719);
+    font-family: szoveg;
+}
